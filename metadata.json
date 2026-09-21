@@ -1,0 +1,6 @@
+{
+  "name": "Hideable Keyboard",
+  "description": "Скрытая и прозрачная клавиатура для Android 5.0+ без всплывающего интерфейса для физических клавиатур, сканеров и терминалов.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

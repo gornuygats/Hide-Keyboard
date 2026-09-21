@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Hideable Keyboard</string>
+    <string name="ime_name">Hideable Keyboard (Без клавиатуры)</string>
+    <string name="subtype_default">Без клавиатуры (Hideable)</string>
+
+    <!-- Setup Wizard -->
+    <string name="step_1_title">Шаг 1. Включить в системе</string>
+    <string name="step_1_desc">Разрешите Hideable Keyboard в списке доступных клавиатур Android.</string>
+    <string name="btn_open_ime_settings">Открыть настройки ввода</string>
+
+    <string name="step_2_title">Шаг 2. Выбрать как активную</string>
+    <string name="step_2_desc">Сделайте Hideable Keyboard текущим методом ввода.</string>
+    <string name="btn_select_ime">Выбрать клавиатуру</string>
+
+    <!-- Status Badges -->
+    <string name="status_enabled">Включена</string>
+    <string name="status_not_enabled">Не включена</string>
+    <string name="status_active">Активна</string>
+    <string name="status_inactive">Не активна</string>
+
+    <!-- Testing Playground -->
+    <string name="test_title">Тестирование ввода</string>
+    <string name="test_field_hint">Коснитесь здесь — клавиатура не закроет экран</string>
+    <string name="test_note">При активной Hideable Keyboard экранная клавиатура не появляется либо отображается минимальная прозрачная панель (в зависимости от режима).</string>
+
+    <!-- Keyboard Modes -->
+    <string name="mode_title">Режим отображения</string>
+    <string name="mode_hidden_title">Полностью скрытая (0 px)</string>
+    <string name="mode_hidden_desc">Экранная клавиатура вообще не появляется на экране. Идеально для физических клавиатур, сканеров штрих-кодов, терминалов и игр.</string>
+    <string name="mode_bar_title">Прозрачная мини-полоска</string>
+    <string name="mode_bar_desc">Тонкая прозрачная полоска снизу с быстрой кнопкой смены клавиатуры, Enter и Скрыть.</string>
+    <string name="mode_floating_title">Плавающая кнопка переключения</string>
+    <string name="mode_floating_desc">Миниатюрная полупрозрачная иконка в углу для быстрого возврата к обычной клавиатуре.</string>
+
+    <!-- Additional Settings -->
+    <string name="settings_title">Дополнительные опции</string>
+    <string name="hardware_passthrough_title">Поддержка физ. клавиатур и сканеров</string>
+    <string name="hardware_passthrough_desc">Прямая передача нажатий клавиш без задержек.</string>
+    <string name="notification_toggle_title">Уведомление для быстрой смены</string>
+    <string name="notification_toggle_desc">Показывать уведомление в шторке при активном вводе для мгновенного переключения.</string>
+
+    <!-- Universal Support -->
+    <string name="compatibility_title">Совместимость</string>
+    <string name="compatibility_desc">Android 5.0+ (Lollipop — 16), все типы процессоров (ARMv7, ARM64, x86, x86_64, RISC-V). Чистый Kotlin без нативных бинарников.</string>
+
+    <!-- Notifications & Actions -->
+    <string name="notification_title">Hideable Keyboard активна</string>
+    <string name="notification_content">Нажмите, чтобы переключить клавиатуру</string>
+    <string name="action_switch">Сменить клавиатуру</string>
+    <string name="action_hide">Скрыть</string>
+</resources>
